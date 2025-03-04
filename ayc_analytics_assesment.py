@@ -20,9 +20,9 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 # In[2]:
 
 
-sales_data = pd.read_csv("C://Users/saura/Downloads/Sales_Data.csv")
-iod_data = pd.read_csv("C://Users/saura/Downloads/IOD.csv")
-obd_data = pd.read_csv("C://Users/saura/Downloads/OBD.csv")
+sales_data = pd.read_csv("Your Dataset Path")
+iod_data = pd.read_csv("Your Dataset Path")
+obd_data = pd.read_csv("Your Dataset Path")
 
 
 # # STEP 3: INSPECT AND CLEAN THE DATA
